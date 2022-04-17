@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  background: linear-gradient(180deg, #73A52A 0%, #B3DB6B 100%);
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__logo {
+    width: 50px;
+    margin-right: 2px;
+    // margin-left: 277px;
+  }
+  &__logo-text {
+    font-family: JetBrains Mono;
+    font-weight: 700;
+    color: black;
+    // margin-right: 104px;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  &__logo-container {
+    display: flex;
+  }
+  &__logo {
+    background-image: url('../../image/Avocado.svg');
+    width: 70.58px;
+    height: 77px;
+  }
+  &__about {
+    color: white;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 30px;
+  }
+
+  &__about:last-child {
+    margin-right: 257px;
+  }
+
+  &__about-container {
+    display: flex;
+
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+  }
+
+  &__vk {
+    background-image: url('../../image/Vk.svg');
+    width: 33px;
+    height: 33px;
+    margin-right: 23px;
+  }
+
+  &__telegram {
+    background-image: url('../../image/Telegram.svg');
+    width: 33px;
+    height: 33px;
+    margin-right: 8px;
+  }
+
+  &__button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.53);
+    background-color: transparent;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    box-sizing: border-box;
+    border-radius: 37px;
+    height: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

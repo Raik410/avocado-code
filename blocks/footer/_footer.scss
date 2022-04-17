@@ -1,0 +1,13 @@
+.footer {
+  background: #73A52A;
+  padding-top: 71px;
+  padding-bottom: 307px;
+  &-width {
+    max-width: 1651px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .margin {
+    margin-right: 110px;
+  }
+}

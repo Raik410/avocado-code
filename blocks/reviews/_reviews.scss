@@ -1,0 +1,64 @@
+.reviews {
+  &-width {
+    max-width: 1349px;
+    margin: 0 auto;
+    padding-bottom: 145px;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    color: #74A62A;
+  }
+  &__container {
+    display: flex;
+    gap: 20px;
+  }
+  &__card {
+    border: 2px solid #73A52A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 10px 15px 10px;
+  }
+  &__card-image {
+    width: 112px;
+    height: 112px;
+  }
+  &__card-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #73A52A;
+  }
+  &__card-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #000000;
+    margin: 0;
+  }
+  &__card-star {
+    width: 155px;
+    height: 31px;
+    margin-top: 20px;
+  }
+  .four-stars {
+    background: url(../../image/fourStars.svg);
+  }
+  .five-stars {
+    background: url(../../image/fiveStart.svg);
+  }
+  .none-stars {
+    background: url(../../image/noneStars.svg);
+  }
+}

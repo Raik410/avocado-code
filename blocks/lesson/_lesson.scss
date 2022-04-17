@@ -1,0 +1,70 @@
+.lesson {
+  color: black;
+  &-width {
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 104px;
+  }
+  &__title {
+    max-width: 605px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    color: #424242;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #424242;
+  }
+  &__cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  &__card {
+    width: 260px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  &__card:last-child {
+    margin-right: 0px;
+  }
+  &__card-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  }
+  &__card-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  &__button {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    background: #73A52A;
+    border-radius: 37px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-top: 100px;
+  }
+  &__title-span {
+    color: #74A62A;
+  }
+}

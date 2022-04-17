@@ -1,0 +1,27 @@
+.skills {
+  color: black;
+  &-width {
+    max-width: 1597px;
+    margin: 0 auto;
+    display: flex;
+  }
+  &__text-container {
+    max-width: 878px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #74A62A;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &__image {
+    background: url(../../image/Boratir.png);
+    width: 710px;
+    height: 398px;
+  }
+}

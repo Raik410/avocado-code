@@ -1,0 +1,46 @@
+.result {
+  background: linear-gradient(180deg, #73A52A 0%, #B3DB6B 187.13%);
+  &-width {
+    max-width: 1646px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    margin-bottom: 106px;
+  }
+  &__title-span {
+    color: #FFEC8A;
+  }
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+  }
+  &__card {
+    max-width: 483px;
+  }
+  &__card-image {
+    width: 483px;
+    height: 270px;
+    border-radius: 50px;
+  }
+  &__card-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  &__card-title-text {
+    color: #FFEC8A;
+  }
+  &__card-subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

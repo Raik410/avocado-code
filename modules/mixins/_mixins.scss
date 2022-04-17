@@ -1,0 +1,6 @@
+@import '../variables/variables';
+
+@mixin block($dlina, $visota) {
+  width: $dlina;
+  height: $visota;
+}

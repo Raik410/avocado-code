@@ -1,0 +1,62 @@
+.info {
+  color: #424242;
+  &-width {
+    max-width: 1364px;
+    margin: 0 auto;
+  }
+  &__title {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+  }
+  &__subtitle {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &__title-color {
+    color: #74A62A;
+  }
+  &__image {
+    background-image: url(../../image/Computer.png);
+    width: 570px;
+    height: 570px;
+    margin-top: 116px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 270px);
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: 170px;
+  }
+  &__card {
+    background-color: #8DC836;
+    border-radius: 15px;
+    padding: 0 15px 0 15px;
+  }
+  &-image-grid-container {
+    display: flex;
+  }
+  &__card-title {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  &__card-subtitle {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .margin-botton {
+    margin-bottom: 40px;
+    padding-top: 10px;
+  }
+}

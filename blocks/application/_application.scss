@@ -1,0 +1,35 @@
+.application {
+  background: linear-gradient(180deg, rgba(115, 165, 42, 0.85) 0%, #B3DB6B 236.79%);
+  padding-bottom: 50px;
+  &-width {
+    max-width: 1382px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding: 50px 0 10px 0;
+    margin: 0;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFEC8A;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  &__button {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background-color: transparent;
+    background: #73A52A;
+    border-radius: 37px;
+    border: none;
+    padding: 0px 27px 0px;
+  }
+}

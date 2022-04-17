@@ -1,0 +1,49 @@
+.about {
+  background: linear-gradient(360deg, #73A52A 0%, #B3DB6B 100%);
+
+
+  &-image {
+    background-image: url(../../image/PeopleIncomputer.svg);
+    width: 571px;
+    height: 299px;
+    border: transparent;
+  }
+
+  &__box {
+    max-width: 1509px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 151px;
+  }
+
+  &-text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 63px;
+  }
+
+  &-image-text {
+    text-align: left;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 63px;
+  }
+}

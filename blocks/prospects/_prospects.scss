@@ -1,0 +1,36 @@
+.prospects {
+  color: black;
+  padding-top: 112px;
+  &-width {
+    max-width: 1584px;
+    margin: 0 auto;
+    display: flex;
+  }
+  &__image {
+    background-image: url(../../image/Peoplecode.png);
+    width: 556px;
+    height: 432px;
+  }
+  &__text-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #74A62A;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    margin: 0;
+    margin-bottom: 39px;
+  }
+  &__text-container {
+    max-width: 1000px;
+    margin-left: 78px;
+  }
+}
