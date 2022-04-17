@@ -21,7 +21,7 @@
   display: flex;
 }
 .header__logo {
-  background-image: url("../../image/Avocado.svg");
+  background-image: url(../../image/Avocado.svg);
   width: 70.58px;
   height: 77px;
 }
@@ -45,13 +45,13 @@
   align-items: center;
 }
 .header__vk {
-  background-image: url("../../image/Vk.svg");
+  background-image: url(../../image/Vk.svg);
   width: 33px;
   height: 33px;
   margin-right: 23px;
 }
 .header__telegram {
-  background-image: url("../../image/Telegram.svg");
+  background-image: url(../../image/Telegram.svg);
   width: 33px;
   height: 33px;
   margin-right: 8px;
