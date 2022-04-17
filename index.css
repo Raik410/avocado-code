@@ -68,7 +68,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .header {
     flex-wrap: wrap;
   }
@@ -123,7 +123,7 @@
   font-size: 32px;
   line-height: 63px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1550px) {
   .about__box {
     flex-wrap: wrap;
     flex-direction: column;
@@ -193,7 +193,7 @@
   margin-bottom: 40px;
   padding-top: 10px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1550px) {
   .info-image-grid-container {
     flex-wrap: wrap;
     flex-direction: column;
@@ -237,7 +237,7 @@
 .prospects__text-container {
   max-width: 1000px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   .prospects-width {
     flex-wrap: wrap;
     flex-direction: column;
@@ -272,11 +272,14 @@
   width: 710px;
   height: 398px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   .skills-width {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+  }
+  .skills__text-container {
+    max-width: 1000px;
   }
 }
 
@@ -386,7 +389,7 @@
 .lesson__title-span {
   color: #74A62A;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .lesson-width {
     flex-wrap: wrap;
     flex-direction: column;
@@ -447,7 +450,7 @@
   font-size: 24px;
   line-height: 32px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1550px) {
   .result__cards {
     flex-wrap: wrap;
     flex-direction: column;
@@ -521,7 +524,7 @@
   background: #FFEC8A;
   border-radius: 30px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .courses__grid {
     grid-template-columns: repeat(1, 470px);
   }
@@ -610,7 +613,7 @@
 .principles .margin-three-card {
   margin-top: 200px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .principles__container {
     flex-direction: column;
   }
@@ -815,7 +818,7 @@
   height: 22px;
   margin-right: 56px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   .registre-width {
     flex-direction: column;
     align-items: center;
@@ -826,6 +829,11 @@
   }
   .registre__text {
     text-align: center;
+  }
+  .registre__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
