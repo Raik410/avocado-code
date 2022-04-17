@@ -31,7 +31,6 @@
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(2, 270px);
     gap: 10px;
-    margin-left: 200px;
     margin-top: 170px;
   }
   &__card {
@@ -41,6 +40,7 @@
   }
   &-image-grid-container {
     display: flex;
+    justify-content: space-between;
   }
   &__card-title {
     color: white;
@@ -58,5 +58,12 @@
   .margin-botton {
     margin-bottom: 40px;
     padding-top: 10px;
+  }
+  @media screen and (max-width: 1200px) {
+    &-image-grid-container {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

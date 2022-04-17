@@ -25,6 +25,7 @@
     flex-direction: column;
     max-width: 300px;
     padding: 10px 15px 10px;
+    min-height: 460px;
   }
   &__card-image {
     width: 112px;
@@ -61,4 +62,11 @@
   .none-stars {
     background: url(.../../image/noneStars.svg);
   }
+    @media screen and (max-width: 1200px) {
+      &__container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+    }
 }

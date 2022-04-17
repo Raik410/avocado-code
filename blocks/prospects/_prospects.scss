@@ -5,6 +5,7 @@
     max-width: 1584px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
   }
   &__image {
     background-image: url(.../../image/Peoplecode.png);
@@ -31,6 +32,14 @@
   }
   &__text-container {
     max-width: 1000px;
-    margin-left: 78px;
+  }
+  @media screen and (max-width: 1200px) {
+    &-width {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
+
+

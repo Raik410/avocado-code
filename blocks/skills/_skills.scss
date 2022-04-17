@@ -24,4 +24,11 @@
     width: 710px;
     height: 398px;
   }
+  @media screen and (max-width: 1200px) {
+    &-width {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }

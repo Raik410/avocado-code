@@ -34,9 +34,6 @@
   line-height: 32px;
   margin-right: 30px;
 }
-.header__about:last-child {
-  margin-right: 257px;
-}
 .header__about-container {
   display: flex;
 }
@@ -70,6 +67,11 @@
   height: 44px;
   padding-left: 20px;
   padding-right: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    flex-wrap: wrap;
+  }
 }
 
 .page {
@@ -121,6 +123,13 @@
   font-size: 32px;
   line-height: 63px;
 }
+@media screen and (max-width: 1200px) {
+  .about__box {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .info {
   color: #424242;
@@ -156,7 +165,6 @@
   grid-template-columns: repeat(2, 300px);
   grid-template-rows: repeat(2, 270px);
   gap: 10px;
-  margin-left: 200px;
   margin-top: 170px;
 }
 .info__card {
@@ -166,6 +174,7 @@
 }
 .info-image-grid-container {
   display: flex;
+  justify-content: space-between;
 }
 .info__card-title {
   color: white;
@@ -184,6 +193,13 @@
   margin-bottom: 40px;
   padding-top: 10px;
 }
+@media screen and (max-width: 1200px) {
+  .info-image-grid-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .prospects {
   color: black;
@@ -193,6 +209,7 @@
   max-width: 1584px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 .prospects__image {
   background-image: url(.../../image/Peoplecode.png);
@@ -219,7 +236,13 @@
 }
 .prospects__text-container {
   max-width: 1000px;
-  margin-left: 78px;
+}
+@media screen and (max-width: 1200px) {
+  .prospects-width {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .skills {
@@ -248,6 +271,13 @@
   background: url(.../../image/Boratir.png);
   width: 710px;
   height: 398px;
+}
+@media screen and (max-width: 1200px) {
+  .skills-width {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .application {
@@ -356,6 +386,20 @@
 .lesson__title-span {
   color: #74A62A;
 }
+@media screen and (max-width: 900px) {
+  .lesson-width {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lesson__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .lesson__card {
+    margin: 0;
+  }
+}
 
 .result {
   background: linear-gradient(180deg, #73A52A 0%, #B3DB6B 187.13%);
@@ -402,6 +446,13 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
+}
+@media screen and (max-width: 900px) {
+  .result__cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .courses {
@@ -469,6 +520,11 @@
 .courses .yellow {
   background: #FFEC8A;
   border-radius: 30px;
+}
+@media screen and (max-width: 900px) {
+  .courses__grid {
+    grid-template-columns: repeat(1, 470px);
+  }
 }
 
 .principles {
@@ -554,6 +610,20 @@
 .principles .margin-three-card {
   margin-top: 200px;
 }
+@media screen and (max-width: 900px) {
+  .principles__container {
+    flex-direction: column;
+  }
+  .principles__card-wheel-container {
+    align-items: center;
+  }
+  .principles__text {
+    text-align: center;
+  }
+  .principles__card-text {
+    text-align: center;
+  }
+}
 
 .FAQ-width {
   display: flex;
@@ -620,6 +690,7 @@
   flex-direction: column;
   max-width: 300px;
   padding: 10px 15px 10px;
+  min-height: 460px;
 }
 .reviews__card-image {
   width: 112px;
@@ -655,6 +726,13 @@
 }
 .reviews .none-stars {
   background: url(.../../image/noneStars.svg);
+}
+@media screen and (max-width: 1200px) {
+  .reviews__container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .registre-width {
@@ -736,6 +814,19 @@
   width: 86px;
   height: 22px;
   margin-right: 56px;
+}
+@media screen and (max-width: 1200px) {
+  .registre-width {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registre__title {
+    text-align: center;
+  }
+  .registre__text {
+    text-align: center;
+  }
 }
 
 .footer {

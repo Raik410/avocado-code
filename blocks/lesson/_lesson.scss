@@ -67,4 +67,18 @@
   &__title-span {
     color: #74A62A;
   }
+  @media screen and (max-width: 900px) {
+    &-width {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__cards {
+      display: flex;
+      flex-direction: column;
+    }
+    &__card {
+      margin: 0;
+    }
+  }
 }

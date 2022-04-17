@@ -36,10 +36,6 @@
     margin-right: 30px;
   }
 
-  &__about:last-child {
-    margin-right: 257px;
-  }
-
   &__about-container {
     display: flex;
 
@@ -79,4 +75,11 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  @media screen and (max-width: 1200px) {
+    & {
+      flex-wrap: wrap;
+    }
+  }
 }
+
+

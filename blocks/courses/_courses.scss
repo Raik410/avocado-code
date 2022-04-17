@@ -64,4 +64,9 @@
     background: #FFEC8A;
     border-radius: 30px;
   }
+  @media screen and (max-width: 900px) {
+    &__grid {
+      grid-template-columns: repeat(1, 470px);
+    }
+  }
 }
