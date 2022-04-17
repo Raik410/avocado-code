@@ -21,7 +21,7 @@
   display: flex;
 }
 .header__logo {
-  background-image: url(../../image/Avocado.svg);
+  background-image: url(.../../image/Avocado.svg);
   width: 70.58px;
   height: 77px;
 }
@@ -45,13 +45,13 @@
   align-items: center;
 }
 .header__vk {
-  background-image: url(../../image/Vk.svg);
+  background-image: url(.../../image/Vk.svg);
   width: 33px;
   height: 33px;
   margin-right: 23px;
 }
 .header__telegram {
-  background-image: url(../../image/Telegram.svg);
+  background-image: url(.../../image/Telegram.svg);
   width: 33px;
   height: 33px;
   margin-right: 8px;
@@ -83,7 +83,7 @@
   background: linear-gradient(360deg, #73A52A 0%, #B3DB6B 100%);
 }
 .about-image {
-  background-image: url(../../image/PeopleIncomputer.svg);
+  background-image: url(.../../image/PeopleIncomputer.svg);
   width: 571px;
   height: 299px;
   border: transparent;
@@ -146,7 +146,7 @@
   color: #74A62A;
 }
 .info__image {
-  background-image: url(../../image/Computer.png);
+  background-image: url(.../../image/Computer.png);
   width: 570px;
   height: 570px;
   margin-top: 116px;
@@ -195,7 +195,7 @@
   display: flex;
 }
 .prospects__image {
-  background-image: url(../../image/Peoplecode.png);
+  background-image: url(.../../image/Peoplecode.png);
   width: 556px;
   height: 432px;
 }
@@ -245,7 +245,7 @@
   line-height: 32px;
 }
 .skills__image {
-  background: url(../../image/Boratir.png);
+  background: url(.../../image/Boratir.png);
   width: 710px;
   height: 398px;
 }
@@ -591,7 +591,7 @@
 .FAQ__arrow {
   width: 34px;
   height: 28px;
-  background: url(../../image/Strelka.svg) no-repeat;
+  background: url(.../../image/Strelka.svg) no-repeat;
 }
 
 .reviews-width {
@@ -648,13 +648,13 @@
   margin-top: 20px;
 }
 .reviews .four-stars {
-  background: url(../../image/fourStars.svg);
+  background: url(.../../image/fourStars.svg);
 }
 .reviews .five-stars {
-  background: url(../../image/fiveStart.svg);
+  background: url(.../../image/fiveStart.svg);
 }
 .reviews .none-stars {
-  background: url(../../image/noneStars.svg);
+  background: url(.../../image/noneStars.svg);
 }
 
 .registre-width {
@@ -694,7 +694,7 @@
   padding: 58px 137px 94px 61px;
 }
 .registre__form-header {
-  background: url(../../image/FormHeader.svg);
+  background: url(.../../image/FormHeader.svg);
   width: 661px;
   height: 80px;
   display: flex;
@@ -732,7 +732,7 @@
   gap: 47px;
 }
 .registre__form-header-wheel {
-  background: url(../../image/threeWheel.svg);
+  background: url(.../../image/threeWheel.svg);
   width: 86px;
   height: 22px;
   margin-right: 56px;
